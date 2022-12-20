@@ -19,11 +19,13 @@
     2-Global 
 */
 body{
-    background: url('Background_1.jpg');
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(Background_1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url(Background_1.jpg);
     background-position: center;
     background-attachment: fixed;
+}
+:root { 
+    background-attachment: fixed; 
 }
 *{
     padding: 0px;
