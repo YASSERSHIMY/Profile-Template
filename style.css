@@ -18,19 +18,16 @@
 /* 
     2-Global 
 */
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
-  margin: 0;
-  background-size: cover;
-  background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url(Background_1.jpg);
-  background-position: center;
-  background-attachment: fixed;
+    margin: 0;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url(Background_1.jpg);
+    background-position: center;
+    background-attachment: fixed;
 }
-
+html { height: 100vh; }
+body { height: 100%; }
+  
 :root { background-attachment: fixed; }
 *{
     padding: 0px;
