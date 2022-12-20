@@ -19,6 +19,7 @@
     2-Global 
 */
 body{
+    background: url('Background_1.jpg');
     background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(Background_1.jpg);
     background-position: center;
@@ -30,10 +31,6 @@ body{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(Background_1.jpg);
-    background-position: center;
-    background-attachment: fixed;
 }
 /* 
     3-header
